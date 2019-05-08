@@ -19,4 +19,3 @@ while num < len(A) :
     num = num + 1
 
 print(A_sum)
-
