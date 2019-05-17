@@ -1,16 +1,14 @@
-A = input()
-B = input()
-A1 = A.split()
-B1 = B.split()
-C = []
-for i in range(0,int(A1[0])) :
-    if int(B1[i]) < int(A1[1]) :
-        C.extend(B1[i])
-    
+N = input()
+Z = str(0)
 
-for j in range(0,len(C)) :
-    D = C[j]
-
-print(D)   
-
-
+if int(N) <10 :
+    N = Z + N
+    Ns = int(Z) + int(N)
+    Nss = str(Ns)
+    Nn = N[1] + Nss[0]
+else : 
+    Ns = int(N[0]) + int(N[1])
+    Nss = str(Ns)
+    Nn = N[1] + Nss[0]
+print(Ns)
+print(Nn)
