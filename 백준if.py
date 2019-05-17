@@ -1,14 +1,19 @@
 N = input()
 Z = str(0)
 
-if int(N) <10 :
-    N = Z + N
-    Ns = int(Z) + int(N)
-    Nss = str(Ns)
-    Nn = N[1] + Nss[0]
-else : 
-    Ns = int(N[0]) + int(N[1])
-    Nss = str(Ns)
-    Nn = N[1] + Nss[0]
-print(Ns)
-print(Nn)
+for i in :
+    if int(N) <10 :
+        N = Z + N
+        Nn = int(Z) + int(N)
+        Nn = str(Nn)
+        N = N[1] + Nn[0]
+    else :
+        Nn = int(Z) + int(N)
+        Nn = str(Nn)
+        N = N[1] + Nn[0]
+    
+    if N == S :
+        break
+    
+
+print(int(N)
