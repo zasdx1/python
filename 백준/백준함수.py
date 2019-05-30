@@ -24,8 +24,11 @@ else :
 
 N = input()
 
-K = int(N) + int(N[0]) + int(N[1])
 
-print(K)
+if true:
+    for i in range(1,int(N)+1)
+        K = str(i)
+    
+
 
 
