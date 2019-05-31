@@ -18,8 +18,8 @@ if int(N) <100 :
 else : 
     print(max_K)
 
-'''
-#문제 1 셀프넘버 / 각자리수 0~9까지 모든경우 배열 / 최종 for문에서 나온값이 없을경우 print
+
+#문제 1 자리수에 따라 리스트로 구분하여 더하기
 
 D1 = []
 D2 = []
@@ -45,12 +45,22 @@ for i in range(1,10000):
         D4.append(F)
 
 pre_D_sum = D1+D2+D3+D4
-D_sum = set(pre_D_sum)
-D_sum = sorted(D_sum)
-print(D_sum)
+D_sum = sorted(set(pre_D_sum))
+
+for j in range(1,10000):
+
+    if j in D_sum:
+        pass
+    else:
+        print(j)
+
+'''
 
 
+#1행 23 * 23
+#2행 22 * 1 * 22
+#3행 21 
 
 
-
-
+A = "{0:^10}".format("hi")
+print(A)
